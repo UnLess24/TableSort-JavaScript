@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сортировка таблицы</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        th {
+            cursor: pointer;
+        }
+        th:last-child, td:last-child {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+
+            <div class="card">
+                <h4 class="card-heading text-center mt-4 mb-4">Таблица сортировки</h4>
+
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th data-type="integer">ID</th>
+                        <th data-type="date">Дата</th>
+                        <th data-type="text">Имя</th>
+                        <th data-type="double">Сумма</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td>4</td>
+                        <td>05.10.2004</td>
+                        <td>Иванов Петр</td>
+                        <td>15750.50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>10.10.2010</td>
+                        <td>Семенов Алексей</td>
+                        <td>10750.20</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>21.05.2018</td>
+                        <td>Ковалев Евгений</td>
+                        <td>23570.25</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>12.12.2008</td>
+                        <td>Пономеренко Сергей</td>
+                        <td>20000.00</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>04.12.2001</td>
+                        <td>Комптенко Дмитрий</td>
+                        <td>19800.00</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>29.07.2014</td>
+                        <td>Сергеев Андрей</td>
+                        <td>15050.50</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="/js/main.js"></script>
+</body>
+</html>
